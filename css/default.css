@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+
+:root {
+	--text-color: #EE8313;
+	/* создали переменную в данном случае цвета текста */
+	--arrow-color: #FFCC2C;
+	--footer-bg: #1F1905;
+}
+
+body {
+	font-family: 'Be Vietnam Pro',sans-serif;
+	/* шрифт */
+	font-size: 16px;
+	/* размер шрифта */
+	line-height: 28px;
+	/* расстояние между строками */
+	color: #ffffff;
+	/* цвет шрифта */
+	background-color: #000000;
+	/* фон */
+}
+
+a {
+	color: inherit;
+	/* означает что цвет наследуется от родительского тега */
+	transition: .3s;
+	/* создание плавного перехода */
+}
+
+button {
+	background: transparent;
+	/* прозрачный фон */
+	transition: .3s;
+}
+
+.btn {
+	padding: 12px 24px;
+	border: 1px solid #000000;
+	/* создаем обводку в данном случае толщиной 1px сплошная линия и ее цвет */
+	font-weight: 600;
+	/* задаем толщину шрифта */
+	background: var(--text-color);
+	color: #ffffff;
+	line-height: 24px;
+}
+
+.btn:hover {
+	background: #000000;
+	border: 1px solid var(--text-color);
+	color: var(--text-color);
+}
+
+.container {
+	max-width: 1200px; 
+	/* задаем ширину контейнеру */
+	margin: 0 auto;
+	/* выравниваем по центру */
+	padding: 0 0;
+	/* создаем небольшие отступы справа и слева  */
+}
+
+section {
+	padding: 60px 0;
+}
+
+.logo {
+	width: 48px;
+	height: 48px;
+	/* задаем размеры картинке */
+}
+
+.title {
+	font-family: 'Be Vietnam Pro';
+	font-size: 52px;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 64px; /* 123.077% */
+	letter-spacing: 0.312px;
+	padding-bottom: 40px;
+	text-align: center;
+	width: 591px;
+	margin: 0 auto;
+}

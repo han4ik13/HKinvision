@@ -1,0 +1,31 @@
+#header-section {
+	padding: 40px 0 107px;
+}
+
+.header {
+	display: flex;
+	/* выстраивает все элементы в ряд и делает их резиновыми */
+	justify-content: space-between;
+	/* расположить эелементы в начале блока и в конце */
+	align-items: center;
+	/* выравнивает элементы по центру в вертикальной плоскости */
+	font-weight: 600;
+}
+
+.navbar {
+	margin-left: auto;
+	/* двигаем элемент в правую сторону */
+}
+
+.navbar__list {
+	display: flex;
+	gap: 48px;
+	/* добавляет отступы внутри элемента */
+	margin-right: 72px;
+	/* задаем отступ справа */
+	line-height: 24px;
+}
+
+.navbar__link:hover {
+	color: var(--text-color);
+}

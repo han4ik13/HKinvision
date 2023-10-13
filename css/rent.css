@@ -1,0 +1,70 @@
+.rent__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/* делим контент на 2 фракции */
+	gap: 32px;
+}
+
+.rent {
+	position: relative;
+	width: 584px;
+	height: 524px;
+	background: url(../img/rent/rent1.jpg) 50% / cover no-repeat, rgba(0, 0, 0, 0.2);
+}
+
+.rent:nth-child(2) {
+	background: url(../img/rent/rent2.jpg) 50% / cover no-repeat, rgba(0, 0, 0, 0.2);
+}
+.rent:nth-child(3) {
+	background: url(../img/rent/rent3.jpg) 50% / cover no-repeat, rgba(0, 0, 0, 0.2);
+}
+.rent:nth-child(4) {
+	background: url(../img/rent/rent4.jpg) 50% / cover no-repeat, rgba(0, 0, 0, 0.2);
+}
+
+.rent__name {
+	position: absolute;
+	top: 48px;
+	left: 48px;
+	font-family: 'Be Vietnam Pro';
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 52px; /* 130% */
+	letter-spacing: 0.24px;
+}
+
+.rent__link {
+	position: absolute;
+	right: 90px;
+	bottom: 48px;
+	/* padding-right: 10px; */
+	font-family: 'Be Vietnam Pro';
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 32px; /* 133.333% */
+	letter-spacing: 0.144px;
+}
+
+.rent__link:hover {
+	color: var(--arrow-color);
+}
+
+.rent__link::after {
+	position: absolute;
+	content: '';
+	top: 55%;
+	right: -22px;
+	width: 11px;
+	height: 11px;
+	border-bottom: 2px solid var(--arrow-color);
+  border-left: 2px solid var(--arrow-color);
+	transform: translateY(-50%) rotate(-135deg);
+	/* 52-57строчки создание стрелки направленной вправа */
+	transition: .3s;
+}
+
+.rent__link:hover::after {
+	right: -26px;
+	width: 15px;
+	height: 15px;
+}

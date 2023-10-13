@@ -1,0 +1,82 @@
+#home-section {
+	position: relative;
+}
+
+.home {
+	/* width: 50%; */
+	max-width: 457px;
+}
+
+.home__title {
+	text-align: start;
+	margin-bottom: 0;
+}
+
+.home__text {
+	font-family: 'Be Vietnam Pro';
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: -0.408px;
+	margin: 32px 0 48px;
+}
+
+.home__buttons {
+	display: flex;
+	align-items: center;
+	gap: 35px;
+	margin-bottom: 40px;
+}
+
+.home__btn {
+	background: #000000;
+	border: 1px solid var(--text-color);
+	color: var(--text-color);
+}
+
+.home__btn:hover {
+	background: var(--text-color);
+	border: 1px solid #000000;
+	color: #ffffff;
+}
+
+.home-features__strong {
+	margin-right: 16px;
+	vertical-align: sub;
+	/* подвинули текст немного ниже */
+	font-family: 'Be Vietnam Pro';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 52px; /* 130% */
+	letter-spacing: -0.164px;
+}
+
+.home-features_text:first-child {
+	margin-right: 40px;
+}
+
+.home-features_text {
+	font-family: 'Be Vietnam Pro';
+	font-weight: 600;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.16px;
+}
+
+.home__img {
+	position: absolute;
+	width: 45%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	/* позицианируем блок справа */
+	background: #3434344D;
+}
+
+.home__img::before {
+	position: absolute;
+	content: '';
+	width: 130%;
+	height: 100%;
+	top: 45px;
+	right: 0;
+	background: url(../img/car.png) no-repeat;
+}

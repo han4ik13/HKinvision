@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+/* импортирую шрифт */
+
+@import url('./zero.css'); 
+/* импортирую нулой стиль */
+@import url('./normalize.css');
+/* импортирю нормализующий стиль */
+@import url('./default.css'); 
+/* иммпортирую стандарт для сайта */
+@import url('./header.css');
+/* стиль хэддера */
+@import url('./home.css');
+/* стиль стр home */
+@import url('./rent.css');
+/* стиль стр rent */
+@import url('./services.css');
+/* стиль стр services */
+@import url('./destination.css');
+/* стиль стр Destination */
+@import url('./location.css');
+@import url('./footer.css');

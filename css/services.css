@@ -1,0 +1,36 @@
+.services__content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+}
+
+.services__title {
+	text-align: start;
+	margin: 0;
+	padding-bottom: 66px;
+}
+
+.services__img {
+	width: 384px;
+	height: 360px;
+	margin-bottom: 24px;
+	background: url(../img/services/services1.jpg) 50% / cover no-repeat, rgba(0, 0, 0, 0.20);
+}
+
+.services__name {
+	font-family: 'Be Vietnam Pro';
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px; /* 133.333% */
+	letter-spacing: 0.144px;
+	margin-bottom: 16px;
+}
+
+.services__text {
+	font-family: 'Be Vietnam Pro';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px; /* 175% */
+	letter-spacing: 0.096px;
+	opacity: 0.8;
+}

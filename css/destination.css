@@ -1,0 +1,75 @@
+.Destination__content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+}
+
+.Destination {
+	border: 1px solid #171717;
+	background: #131313;
+}
+
+.Destination__img {
+	background:  50% / cover no-repeat, rgba(0, 0, 0, 0.2);
+}
+
+.Destination__info {
+	padding: 24px;
+}
+
+.Destination__name {
+	color: #FFF;
+	font-family: 'Be Vietnam Pro';
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px; /* 133.333% */
+	letter-spacing: 0.144px;
+	margin-bottom: 10px;
+}
+
+.Destination__text {
+	font-family: 'Be Vietnam Pro';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px; /* 175% */
+	letter-spacing: 0.066px;
+	opacity: 0.8;
+	margin-bottom: 24px;
+}
+
+.Destination__price {
+	display: block;
+	position: relative;
+	font-family: 'Be Vietnam Pro';
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 28px; /* 175% */
+	letter-spacing: 0.066px;
+	margin-bottom: 16px;
+	padding-left: 42px;
+}
+
+.Destination__price::before {
+	position: absolute;
+	content: '';
+	top: 50%;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	background: url(../img/destination/Front\ Car.svg) no-repeat;
+	transform: translateY(-50%);
+}
+
+.Destination__location {
+	color: var(--text-color);
+	font-family: 'Be Vietnam Pro';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px; /* 175% */
+	letter-spacing: 0.066px;
+}
+
+.Destination__location:hover {
+	color: var(--arrow-color);
+	text-decoration: underline;
+}
